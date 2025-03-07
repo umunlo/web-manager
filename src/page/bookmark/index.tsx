@@ -1,6 +1,10 @@
+import{ useEffect } from "react";
 
+export const Bookmark = () => {
+  useEffect(() => {
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+  }, []);
 
-
-export function Bookmark() {
   return <div></div>;
-}
+};
