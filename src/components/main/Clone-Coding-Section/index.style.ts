@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const S = {
   PageContainer: styled.div`
-    width: 84vw;
+    width: 100vw;
     height: 100vh;
     min-height: 100vh;
     margin-left: 80px;
-    box-sizing: border-box;
+
     display: flex;
     justify-content: center;
     flex-direction: column;

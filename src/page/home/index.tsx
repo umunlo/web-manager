@@ -1,4 +1,4 @@
-import { Sidebar } from "../../components/Sidebar";
+import { Sidebar } from "../../components/sidebar";
 import { S } from "./index.style";
 import { CloneCodingSection } from "../../components/main/Clone-Coding-Section";
 

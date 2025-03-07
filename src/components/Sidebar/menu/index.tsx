@@ -1,4 +1,4 @@
-import { S } from "./index.style";
+import { S } from "./index.style.ts";
 import bookmarkImg from "../../../assets/img/memu/bookmark.png";
 import storageImg from "../../../assets/img/memu/storage.png";
 import useRouter from "../../../router/router.ts";
