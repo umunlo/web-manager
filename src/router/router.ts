@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
+import { Router } from "./routerType";
 
-export const useNavigation = () => {
+const useRouter = (): Router => {
   const navigate = useNavigate();
 
   return {
@@ -11,3 +12,5 @@ export const useNavigation = () => {
     navigateStorage: () => navigate("/storage"),
   };
 };
+
+export default useRouter;

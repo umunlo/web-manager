@@ -24,6 +24,9 @@ export const S = {
     font-size: 22px;
     font-weight: bold;
     border-radius: 10px;
+    @media (max-width: 988px) {
+      display: none;
+    }
   `,
 
   LogoutButton: styled.div`

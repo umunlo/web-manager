@@ -7,7 +7,7 @@ export const S = {
     display: flex;
     justify-content: center;
     align-items: center;
-    @media (max-width: 1280px) {
+    @media (max-width: 630px) {
       display: none;
     }
   `,
