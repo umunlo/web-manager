@@ -10,10 +10,11 @@ export const S = {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 6rem;
+    gap: 4rem;
   `,
 
   SectionContainer: styled.div`
+    height: 30vh;
     width: 74%;
     background-color: #fff;
     border-radius: 10px;
@@ -25,12 +26,19 @@ export const S = {
     margin: 0;
     font-size: 1.5rem;
     font-weight: 700;
+    position: sticky;
   `,
 
   BadgeWrapper: styled.div`
     margin-top: 0.5rem;
     display: flex;
     gap: 0.5rem;
+    position: sticky;
+  `,
+
+  CloneCodingItemBox: styled.div`
+    overflow-y: auto;
+    max-height: 24vh;
   `,
 
   Badge: styled.span`

@@ -7,6 +7,9 @@ export const S = {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 1280px) {
+      display: none;
+    }
   `,
 
   Sideber: styled.div`
