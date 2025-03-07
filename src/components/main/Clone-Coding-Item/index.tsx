@@ -6,7 +6,7 @@ import notSelect from "../../../assets/img/item/notselect.png";
 
 import useRouter from "../../../router/router";
 
-//각자의 정보가 담긴 배열을 가져옴(위에서 프롭으로)
+//유저의 클론코딩 전채 선택여부 반환 [true,true, false, false, true .....]
 //toggleSelected에서 바꿀때 해당하는 순서의 요소의 정보 변경(변경시 서버에 넣기)
 export function CloneCodingItem() {
   const { navigateInfo } = useRouter();

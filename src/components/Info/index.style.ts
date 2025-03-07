@@ -10,13 +10,25 @@ const PageContainer = styled.div`
 `;
 
 const Container = styled.div`
-  width: 90%;
+  width: 80%;
+  height: 98%;
   background-color: white;
+  border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8%;
 `;
 
 const TopInpoBox = styled.div`
+  margin-top: 40px;
   width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14%;
 `;
 
 export const S = {

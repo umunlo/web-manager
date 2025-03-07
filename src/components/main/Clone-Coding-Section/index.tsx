@@ -11,7 +11,6 @@ export function CloneCodingSection() {
       {/* 첫 번째 섹션 */}
       <S.SectionContainer>
         <S.SectionTitle>전체 클론코딩</S.SectionTitle>
-
         <S.CloneCodingItemBox>
           <CloneCodingItem></CloneCodingItem>
         </S.CloneCodingItemBox>
