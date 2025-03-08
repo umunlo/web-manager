@@ -8,8 +8,7 @@ const useRouter = (): Router => {
     navigateHome: () => navigate("/"),
     navigateSignin: () => navigate("/signin"),
     navigateInfo: () => navigate("/info"),
-    navigateBookmark: () => navigate("/bookmark"),
-    navigateStorage: () => navigate("/storage"),
+    navigateAdd: () => navigate("/add"),
   };
 };
 

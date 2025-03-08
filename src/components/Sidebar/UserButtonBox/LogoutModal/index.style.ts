@@ -6,7 +6,6 @@ const ModalOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
@@ -28,15 +27,16 @@ const ButtonBox = styled.div`
 `;
 
 const ConfirmButton = styled.button`
-  background-color: #000;
+  background-color: #f44336;
+  border: #f44336;
   color: #fff;
   padding: 8px 16px;
   border-radius: 4px;
 `;
 
 const CancelButton = styled.button`
-  background-color: #f44336;
-  border: #f44336 ;
+  background-color: #000;
+
   color: #fff;
   padding: 8px 16px;
   border-radius: 4px;
