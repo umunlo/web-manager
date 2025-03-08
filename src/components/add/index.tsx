@@ -6,7 +6,7 @@ import { InfoCard } from "./InfoCard/index";
 import { DetailArea } from "./DetailArea/index";
 import { Button } from "./Button";
 
-export function InfoBox() {
+export function AddBox() {
   return (
     <S.PageContainer>
       <S.Container>
@@ -21,7 +21,7 @@ export function InfoBox() {
         {/* 하단 큰 회색 박스 (세부사항) */}
         <DetailArea />
 
-        {/* 하단 수정, 삭제 (버튼) */}
+        {/* 하단 추가 (버튼) */}
         <Button />
       </S.Container>
     </S.PageContainer>

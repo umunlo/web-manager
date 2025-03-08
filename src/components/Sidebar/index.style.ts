@@ -7,27 +7,30 @@ export const S = {
     display: flex;
     justify-content: center;
     align-items: center;
+
     @media (max-width: 630px) {
       display: none;
     }
   `,
 
   Sideber: styled.div`
-    width: 100%;
+    position: fixed;
+    width: 15vw;
     height: 84vh;
+    z-index: 10;
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    display: flex;
-    justify-content: center;
   `,
 
   Logo: styled.img`
     width: 70%;
     height: 5%;
+    margin-bottom: 500px;
   `,
 };

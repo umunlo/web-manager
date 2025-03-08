@@ -2,8 +2,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Home } from "./page/home/index";
 import { Signin } from "./page/signin/index";
 import { Info } from "./page/info/index";
-import { Bookmark } from "./page/bookmark/index";
-import { Storage } from "./page/storage";
+import { Add } from "./page/add/index";
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/info" element={<Info />} />
-        <Route path="/bookmark" element={<Bookmark />} />
-        <Route path="/storage" element={<Storage />} />
+        <Route path="/add" element={<Add />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </BrowserRouter>
