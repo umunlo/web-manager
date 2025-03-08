@@ -11,8 +11,9 @@ const ImgArea = styled.div`
 `;
 
 const Img = styled.img`
-  width: 60%;
-  height: 100%;
+  width: 120%;
+  height: 230px;
+  border-radius: 20px;
 `;
 
 export const S = {

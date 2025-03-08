@@ -34,6 +34,13 @@ export const S = {
     position: sticky;
   `,
 
+  BadgeWrapper: styled.div`
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    position: sticky;
+  `,
+
   CloneCodingItemBox: styled.div`
     overflow-y: auto;
     max-height: 58vh;

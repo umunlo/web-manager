@@ -1,4 +1,3 @@
-
 import { S } from "./index.style";
 import testImg from "../../../assets/img/favicon/favicon.png";
 

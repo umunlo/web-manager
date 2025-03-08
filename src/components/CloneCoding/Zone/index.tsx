@@ -11,6 +11,7 @@ export function CloneCodingSection() {
       <S.SectionContainer>
         <S.SectionTitleBox>
           <S.SectionTitle>전체 클론코딩</S.SectionTitle>
+          <S.BadgeWrapper></S.BadgeWrapper>
           <S.SectionTitle onClick={() => navigateAdd()}>+</S.SectionTitle>
         </S.SectionTitleBox>
         <S.CloneCodingItemBox>
