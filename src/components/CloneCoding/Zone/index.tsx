@@ -1,7 +1,6 @@
 import { S } from "./index.style";
-import { CloneCodingColumn } from "../CloneCodingColumn";
+import { CloneCodingZone } from "../Section/index";
 import useRouter from "../../../router/router";
-
 
 export function CloneCodingSection() {
   const { navigateAdd } = useRouter();
@@ -15,7 +14,7 @@ export function CloneCodingSection() {
           <S.SectionTitle onClick={() => navigateAdd()}>+</S.SectionTitle>
         </S.SectionTitleBox>
         <S.CloneCodingItemBox>
-          <CloneCodingColumn></CloneCodingColumn>
+          <CloneCodingZone></CloneCodingZone>
         </S.CloneCodingItemBox>
       </S.SectionContainer>
     </S.PageContainer>

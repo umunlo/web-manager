@@ -6,6 +6,8 @@ import useRouter from "../../../router/router";
 import select from "../../../assets/img/item/select.png";
 import notSelect from "../../../assets/img/item/notselect.png";
 
+import defaultImg from "../../../assets/img/clonecoding/Default.png";
+
 export function CloneCodingItem({
   index,
   selectedArr,
@@ -20,7 +22,12 @@ export function CloneCodingItem({
   };
 
   return (
-    <S.Card onClick={() => navigateInfo()}>
+    <S.Card
+      onClick={() => navigateInfo()}
+      style={{
+        backgroundImage: `linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url(${defaultImg})`,
+      }}
+    >
       <S.StarIcon
         src={selectedArr[index] ? select : notSelect} // 개별 상태 적용
         alt="star"
